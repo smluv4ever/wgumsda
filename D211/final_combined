@@ -1,0 +1,21 @@
+-- Table: public.final_combined
+
+-- DROP TABLE public.final_combined;
+
+CREATE TABLE public.final_combined
+(
+	Index int NOT NULL,
+    HighBlood text COLLATE pg_catalog."default",
+    Arthritis text COLLATE pg_catalog."default",
+    Overweight text COLLATE pg_catalog."default",
+    Diabetes text COLLATE pg_catalog."default",
+    Asthma text COLLATE pg_catalog."default",
+    Age int,
+    Stroke text COLLATE pg_catalog."default",
+    Marital text COLLATE pg_catalog."default",
+    Gender text COLLATE pg_catalog."default",
+    Source text COLLATE pg_catalog."default",
+    CONSTRAINT final_combined_pkey PRIMARY KEY (Index)
+)
+
+TABLESPACE pg_default;
